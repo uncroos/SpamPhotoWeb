@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React, { useState } from "react";
+import CameraScreen from "./screen/CameraScreen";
+import FrameChoiceScreen from "./screen/FrameChoiceScreen";
+import FinScreen from "./screen/FinScreen";
 
 function App() {
+  const [photos, setPhotos] = useState([]);
+  const [frame, setFrame] = useState("");
+  const [currentScreen, setCurrentScreen] = useState("camera");
+
+  const handlePhotosTaken = (photos) => {
+    setPhotos(photos);
+    setCurrentScreen("frameChoice");
+  };
+
+  const handleFrameSelected = (frame) => {
+    setFrame(frame);
+    setCurrentScreen("fin");
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {currentScreen === "camera" && (
+        <CameraScreen onPhotosTaken={handlePhotosTaken} />
+      )}
+      {currentScreen === "frameChoice" && (
+        <FrameChoiceScreen onFrameSelected={handleFrameSelected} />
+      )}
+      {currentScreen === "fin" && <FinScreen photos={photos} frame={frame} />}
     </div>
   );
 }
