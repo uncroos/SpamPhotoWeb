@@ -13,13 +13,16 @@
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 4rem;
   margin-bottom: 1.5rem;
   color: #fff; /* White text color */
 }
 
 .button {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 20rem;
+  height: 3rem;
   padding: 0.5rem 1rem;
   background-color: #ffffff;
   color: #414141;
