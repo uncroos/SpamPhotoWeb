@@ -1,8 +1,8 @@
 // src/components/Start.js
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./Start.css"; // Import the CSS file
-import logo from "../assets/spam_logo.png"; // Adjust the path according to your folder structure
+import "./Start.css";
+import logo from "../assets/spam_logo.png";
 
 const Start = () => {
   const navigate = useNavigate();
