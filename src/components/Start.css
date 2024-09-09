@@ -9,12 +9,14 @@
 
 .Stalogo {
   width: 400px;
+  margin-bottom: 0.1rem; /* 로고와 제목 사이의 간격을 좁게 설정 */
 }
 
 .StaStatitle {
   font-size: 4rem;
   margin-bottom: 1.5rem;
   color: #fff;
+  margin-top: 0; /* 필요 시 간격을 더 좁히기 위해 추가 */
 }
 
 .Stabutton {
