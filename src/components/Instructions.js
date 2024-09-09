@@ -6,11 +6,9 @@ const Instructions = () => {
 
   return (
     <div className="Inscontainer">
-      <h1 className="Institle">Instructions</h1>
+      <h1 className="Institle">촬영 방법</h1>
       <p className="instructionsText">
-        사진을 4장 찍고
-        <br />
-        원하는 프레임을 선택하세요.
+        사진을 4장 찍고 원하는 프레임을 선택하세요.
         <br />
         사진은 8초 간격으로 자동으로 촬영됩니다.
         <br />
