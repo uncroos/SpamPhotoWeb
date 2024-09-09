@@ -2,9 +2,7 @@ import React from "react";
 import "./Instructions.css"; // CSS 파일을 import
 
 const Instructions = () => {
-  const handleNextClick = () => {
-    // 아무 동작도 하지 않도록 함수는 빈 상태로 유지
-  };
+  const handleNextClick = () => {};
 
   return (
     <div className="Inscontainer">
