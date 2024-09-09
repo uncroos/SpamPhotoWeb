@@ -11,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Start />} />
         <Route path="/instructions" element={<Instructions />} />
+        <Route path="/camera" element={<Camera />} />
       </Routes>
     </Router>
   );
