@@ -1,4 +1,4 @@
-.container {
+.Stacontainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,18 +7,18 @@
   background-color: #414141; /* Background color */
 }
 
-.logo {
+.Stalogo {
   width: 300px; /* Adjust the size as needed */
   margin-bottom: 5px; /* Space between the logo and the title */
 }
 
-.title {
+.StaStatitle {
   font-size: 4rem;
   margin-bottom: 1.5rem;
   color: #fff; /* White text color */
 }
 
-.button {
+.Stabutton {
   font-size: 1.5rem;
   font-weight: bold;
   width: 20rem;
@@ -30,8 +30,4 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-}
-
-.button:hover {
-  background-color: #e0e0e0; /* Slight hover effect */
 }
