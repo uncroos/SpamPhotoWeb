@@ -8,14 +8,13 @@
 }
 
 .Stalogo {
-  width: 300px; /* Adjust the size as needed */
-  margin-bottom: 5px; /* Space between the logo and the title */
+  width: 400px;
 }
 
 .StaStatitle {
   font-size: 4rem;
   margin-bottom: 1.5rem;
-  color: #fff; /* White text color */
+  color: #fff;
 }
 
 .Stabutton {

@@ -14,9 +14,8 @@ const Start = () => {
 
   return (
     <div className="Stacontainer">
-      <img src={logo} alt="SpamNeCut Logo" className="Stalogo" />{" "}
-      {/* Logo Image */}
-      <h1 className="StaStatitle">스팸네컷</h1>
+      <img src={logo} alt="SpamNeCut Logo" className="Stalogo" />
+      {"스팸네컷"}
       <button className="Stabutton" onClick={handleStartClick}>
         시작하기
       </button>
