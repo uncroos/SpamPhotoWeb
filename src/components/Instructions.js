@@ -2,6 +2,8 @@ import React from "react";
 import "./Instructions.css"; // CSS 파일을 import
 
 const Instructions = () => {
+  const navigate = useNavigate();
+
   const handleNextClick = () => {
     navigate("/camera");
   };
