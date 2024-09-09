@@ -1,2 +1,2 @@
 import React from "react";
-import Start form './components/Start';
+import Start from "./components/Start";
