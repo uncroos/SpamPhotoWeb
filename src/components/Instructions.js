@@ -2,7 +2,9 @@ import React from "react";
 import "./Instructions.css"; // CSS 파일을 import
 
 const Instructions = () => {
-  const handleNextClick = () => {};
+  const handleNextClick = () => {
+    navigate("/camera");
+  };
 
   return (
     <div className="Inscontainer">
