@@ -8,7 +8,6 @@ const Start = () => {
   const navigate = useNavigate();
 
   const handleStartClick = () => {
-    // Navigate to /instructions when the user clicks the start button
     navigate("/instructions");
   };
 
