@@ -13,7 +13,7 @@ const Start = () => {
 
   return (
     <div className="container">
-      <h1 className="title">SpamNeCut</h1>
+      <h1 className="title">스팸네컷</h1>
       <button className="button" onClick={handleStartClick}>
         시작하기
       </button>
