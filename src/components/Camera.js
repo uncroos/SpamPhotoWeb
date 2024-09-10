@@ -45,7 +45,8 @@ const Camera = () => {
         screenshotFormat="image/jpeg"
         width={512}
         height={612}
-        screenshotWidth={512} // 기본 캡처 너비 설정
+        screenshotWidth={512}
+        minScreenshotHeight={612}
       />
       <button onClick={takePictures} disabled={images.length >= 4}>
         사진 찍기
