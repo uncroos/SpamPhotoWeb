@@ -26,8 +26,8 @@ const Camera = () => {
         audio={false}
         ref={webcamRef}
         screenshotFormat="image/jpeg"
-        width={320}
-        height={240}
+        width={512}
+        height={800}
       />
       <button onClick={takePictures} disabled={images.length >= 4}>
         사진 찍기
